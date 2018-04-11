@@ -66,9 +66,10 @@ p {
 
 .box:hover {
     transform: translateY(-10px);
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .box:hover  {
     opacity: 1;
-    box-shadow: #cecece 0 5px 10px 0;
+    box-shadow: #cecece 0 10px 10px 1px;
 }
